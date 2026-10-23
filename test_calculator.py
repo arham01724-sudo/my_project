@@ -1,5 +1,5 @@
 import unittest
-from calculator import add , subtract , divison , multiply
+from calculator import add , subtract , divi , multiply
 
 class TestCalculator(unittest.TestCase):
     def test_add(self):
@@ -10,7 +10,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(subtract(5,3),8)
 
 class TestCalculator(unittest.TestCase):
-    def test_divison(self):
+    def test_divi(self):
         self.assertEqual(divison(5,3),8)
 
 class TestCalculator(unittest.TestCase):
